@@ -7,7 +7,6 @@ const Counter=():JSX.Element=>{
         console.log('Hello')
       }, [])
 
-    const a =2;
     return <>
         <h1> Counter = {count}</h1>
         <button onClick={() => setCount(count+1)}>Increment</button>

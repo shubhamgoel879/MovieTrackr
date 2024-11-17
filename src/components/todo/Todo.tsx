@@ -54,7 +54,7 @@ const Todo = (): JSX.Element => {
             <div className="task-manipulate">
               <input
                 type="checkbox"
-                onChange={(e) => handleIsCompleted(task.uuid, e)}
+                onChange={() => handleIsCompleted(task.uuid)}
                 checked={task.isCompleted}
               />
               <button onClick={() => handleDelete(task.uuid)}>Delete</button>

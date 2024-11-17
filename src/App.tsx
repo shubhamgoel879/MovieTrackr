@@ -4,8 +4,6 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Watchlist from "./components/Watchlist";
 import Banner from "./components/Banner";
-import Counter from "./components/Counter";
-import { useEffect } from "react";
 
 function App() {
 
