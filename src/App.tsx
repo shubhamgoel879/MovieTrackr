@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Watchlist from "./components/Watchlist";
 import Banner from "./components/Banner";
+import TodoRedux from "./components/Todo-redux/Todo";
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
 
   return (
     <> 
-      <BrowserRouter>
+    <TodoRedux/>
+      {/* <BrowserRouter>
         <Navbar />
         <Routes>
           <Route
@@ -26,7 +28,7 @@ function App() {
           />
           <Route path="/watchlist" element={<Watchlist />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   );
 }
