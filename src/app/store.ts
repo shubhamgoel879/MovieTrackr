@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import todoReducer from '../components/Todo-redux/todoSlice'
+import movieReducer from './MovieSlice'
 
 export const store = configureStore({
-    reducer: todoReducer
+    reducer: movieReducer
 })
 
 
