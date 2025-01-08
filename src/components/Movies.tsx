@@ -51,7 +51,7 @@ const Movies = () => {
       .request(options)
       .then((response) => {
         console.log(response.data);
-        setMovies(response.data.data.slice(0, 29));
+        setMovies(response.data.data.slice(0, 28));
       })
       .catch((error) => {
         console.error(error);
