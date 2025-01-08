@@ -28,9 +28,12 @@ export const movieSlice = createSlice({
       );
       localStorage.setItem("watchList", JSON.stringify(state.watchList))
     },
+    setWatchList: (state, action) => {
+      state.watchList = action.payload
+    },
   },
 });
 
-export const { addToWatchList, removeFromWatchList } = movieSlice.actions;
+export const { addToWatchList, removeFromWatchList, setWatchList } = movieSlice.actions;
 
 export default movieSlice.reducer;
