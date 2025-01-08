@@ -24,3 +24,11 @@ A movie watchlist tracking application for users to add, remove or manage the mo
 - Clone the repo.
 - Run - npm install.
 - Run - npm run dev.
+
+# UI Images
+
+![Screenshot1](/src/assets/images/UI1.jpg)
+![Screenshot2](/src/assets/images/UI2.jpg)
+![Screenshot3](/src/assets/images/UI3.jpg)
+![Screenshot4](/src/assets/images/UI4.jpg)
+
