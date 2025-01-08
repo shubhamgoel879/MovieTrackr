@@ -52,7 +52,7 @@ const MovieCard = ({ movie }: { movie: any }) => {
           &#10084;
         </div>
       )}
-      <div className="hidden group-hover:block text-white bg-gradient-to-t text-center w-full bg-blue-900/60 rounded-xl">
+      <div className="hidden group-hover:block text-white bg-gradient-to-t text-center w-full bg-black rounded-b-xl">
         {movie.name}
       </div>
     </div>
