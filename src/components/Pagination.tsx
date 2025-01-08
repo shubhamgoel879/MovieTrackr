@@ -1,5 +1,3 @@
-import React from "react";
-
 function Pagination({
   moveToNextPage,
   moveToPrevPage,
@@ -10,7 +8,7 @@ function Pagination({
   pageNo: number;
 }) {
   return (
-    <div className="bg-gray-400 p-4 mt-8 flex justify-center">
+    <div className="p-4 mt-8 flex justify-center">
       <div onClick={moveToPrevPage} className="px-8 hover:cursor-pointer hover:scale-125 duration-300">
         <i className="fa-solid fa-arrow-left"></i>
       </div>
