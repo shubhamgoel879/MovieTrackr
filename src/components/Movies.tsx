@@ -24,7 +24,7 @@ const Movies = () => {
       method: "POST",
       url: `https://api4.thetvdb.com/v4/login`,
       data: {
-        apikey: "3b3a369c-5f61-4969-b359-3912ff3650dc",
+        apikey: "Create your account at tvdb.com and you can create 128 bit key and use here.",
       },
     };
     axios
